@@ -1,0 +1,14 @@
+2026-06-20 15:13:28,725 - CRITICAL - Отсутствуют обязательные переменные окружения: ['ASANA_TOKEN', 'ASANA_PROJECT_ID', 'MAX_BOT_TOKEN', 'MAX_CHAT_ID', 'WEBHOOK_SECRET']
+2026-06-20 16:56:58,467 - CRITICAL - Отсутствуют обязательные переменные окружения: ['KAITAN_TOKEN', 'BOARD_ID', 'TELEGRAM_BOT_TOKEN', 'TELEGRAM_CHAT_ID', 'WEBHOOK_SECRET']
+2026-06-20 16:57:35,680 - CRITICAL - Отсутствуют обязательные переменные окружения: ['KAITAN_TOKEN', 'BOARD_ID', 'TELEGRAM_BOT_TOKEN', 'TELEGRAM_CHAT_ID', 'WEBHOOK_SECRET']
+2026-06-20 17:01:00,396 - CRITICAL - Отсутствуют обязательные переменные окружения: ['KAITAN_TOKEN', 'BOARD_ID', 'TELEGRAM_BOT_TOKEN', 'TELEGRAM_CHAT_ID', 'WEBHOOK_SECRET']
+2026-06-20 17:02:39,064 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.109:5000
+2026-06-20 17:02:39,064 - INFO - [33mPress CTRL+C to quit[0m
+2026-06-20 17:03:59,008 - INFO - 127.0.0.1 - - [20/Jun/2026 17:03:59] "GET /health HTTP/1.1" 200 -
+2026-06-20 17:05:34,112 - INFO - Получена команда: Проверить почту завтра
+2026-06-20 17:05:34,287 - ERROR - ❌ Ошибка создания задачи в Kaiten: 404
+2026-06-20 17:05:34,651 - INFO - Уведомление успешно отправлено в Telegram
+2026-06-20 17:05:34,657 - INFO - 127.0.0.1 - - [20/Jun/2026 17:05:34] "[35m[1mPOST /kaiten-task HTTP/1.1[0m" 500 -
